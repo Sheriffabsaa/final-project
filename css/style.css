@@ -1,0 +1,45 @@
+body{
+	background-image: url(../images/F1.jpg);
+	color: green;
+	font-size: 100%; 
+	background-size: cover;
+	text-align: left;
+	font-family: cursive;
+}
+ul{
+	margin: 0px; padding: 0px;
+}
+ul li a{
+	text-decoration: none;
+	color: green;
+	display: block;
+}
+ul li{
+	display: block;
+	float:left;
+	width: 110px;
+	height: 40px;
+	background-color: black;
+	font-size: 20px;
+	line-height:40px;
+	text-align: center;
+	opacity: .8;
+	border: 1px solid wheat;
+}
+ul li a:hover{
+	background-color: orange;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}   
+.head{
+	padding: 50px;
+	margin: auto;
+
+} 
+    
+
+
